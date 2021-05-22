@@ -13,3 +13,6 @@
 <!-- - ⚡ Fun fact: ... -->
 
 https://github-readme-stats.vercel.app/api?username=EswarVarma91&theme=dracula
+
+api/pin?username=anuraghazra&repo=github-readme-stats
+
