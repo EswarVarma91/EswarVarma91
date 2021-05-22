@@ -12,10 +12,9 @@
 <!-- - 😄 Pronouns: ... -->
 <!-- - ⚡ Fun fact: ... -->
 
-https://github-readme-stats.vercel.app/api?username=EswarVarma91&theme=dracula
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=EswarVarma91&show_icons=true&theme=radical)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=EswarVarma91&repo=e-biz-3.0)](https://github.com/EswarVarma91/e-biz-3.0)
 
 
-api/pin?username=anuraghazra&repo=github-readme-stats
 
