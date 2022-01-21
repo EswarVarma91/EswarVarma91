@@ -4,7 +4,7 @@ I am Eswar Varma Panumetcha👋
 
 
 
-- 🔭 I’m currently working on ... CApp
+- 🔭 I’m currently working on ... Qatar Islamic Bank
 - 🌱 I’m currently learning ... Node.js
 - 📫 How to reach me: ... 9014832822
 <!-- - 👯 I’m looking to collaborate on ...  -->
