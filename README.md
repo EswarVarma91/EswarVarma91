@@ -50,6 +50,33 @@ Logray's interface grew feature by feature, so the job is consolidation: one com
 - ♿ **Accessibility as a pass, not a hope** — contrast, focus order, keyboard paths and screen-reader labels verified.
 - 📱 **Responsive by construction** — the same screen and the same logic from phone to desktop.
 
+<!-- ============================================================
+     Logray screenshot gallery — BLOCKED ON IMAGES.
+     Add files to assets/logray/ (see the README in that folder), then
+     delete the three comment lines below to publish the gallery.
+     Replace the captions with what each screen actually shows.
+     ============================================================
+
+<p align="center">
+  <img src="assets/logray/01-before.png" alt="Logray screen before the UI enhancement work" width="480">
+  <br>
+  <sub><b>Before</b> — screens styled one at a time</sub>
+</p>
+
+<p align="center">
+  <img src="assets/logray/02-after.png" alt="The same Logray screen after the UI enhancement work" width="480">
+  <br>
+  <sub><b>After</b> — shared components, token-based spacing, real loading states</sub>
+</p>
+
+<p align="center">
+  <img src="assets/logray/03-components.png" alt="Logray component library and design tokens" width="480">
+  <br>
+  <sub><b>System</b> — the component layer the screens are built from</sub>
+</p>
+
+-->
+
 ---
 
 ## 02 · ✨ JOYIZM — UI enhancement track
