@@ -1,88 +1,108 @@
-<!-- Profile README — reads as one column on phones, uses the full width on desktop -->
+<!-- ============================================================
+     Profile README — built like a design handoff sheet.
+     One column everywhere, so phones and desktops read the same.
+     ============================================================ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=130&section=header">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=C7C3FF&height=130&section=header" alt="" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C2A8&height=170&section=header&text=Eswar%20Varma%20Panumetcha&fontSize=40&fontColor=ffffff&desc=Frontend%20%26%20Mobile%20Engineer&descSize=18&descAlignY=80&animation=twinkling">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C7C3FF,100:9FF3E8&height=170&section=header&text=Eswar%20Varma%20Panumetcha&fontSize=40&fontColor=2A2350&desc=Frontend%20%26%20Mobile%20Engineer&descSize=18&descAlignY=80" alt="Eswar Varma Panumetcha — Frontend & Mobile Engineer" width="100%">
 </picture>
-
-<h1 align="center">Eswar Varma Panumetcha</h1>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=520&lines=Frontend+%26+Mobile+Engineer;UI+enhancements+for+Logray;UI+enhancements+for+JOYIZM;React+%C2%B7+Ionic+%C2%B7+Flutter+%C2%B7+Capacitor" alt="Frontend and mobile engineer" width="520" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=900&color=6C63FF&center=true&vCenter=true&width=460&lines=UI+enhancement+track+%E2%80%94+Logray;UI+enhancement+track+%E2%80%94+JOYIZM;Design+systems+%C2%B7+motion+%C2%B7+accessibility" alt="Currently shipping Logray and JOYIZM UI enhancements" width="460" />
 
-**I turn complex product flows into interfaces people actually enjoy using.**
+<br>
 
 [![Email](https://img.shields.io/badge/Email-rocktheway3%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rocktheway3@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91%2090148%2032822-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919014832822)
 [![GitHub](https://img.shields.io/badge/GitHub-EswarVarma91-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EswarVarma91)
-![Profile views](https://komarev.com/ghpvc/?username=EswarVarma91&style=for-the-badge&color=00C2A8&label=VISITORS)
 
 </div>
 
----
-
-## 🚀 Currently shipping
-
-### 🎨 Logray — UI enhancements
-
-Rebuilding key product screens into one consistent, reusable UI layer instead of one-off pages.
-
-- 🧩 Shared components, tokens and spacing so new screens stop being bespoke
-- 📐 Screen-by-screen refinement: layout, hierarchy and visual consistency
-- ⚡ Interaction polish — transitions, skeleton and empty states
-- ♿ Accessibility pass on contrast, focus order and tap targets
-- 📱 Behaviour that holds up from small phones to wide desktop
-
-`React` · `TypeScript` · `Ionic React` · `Capacitor`
+> [!NOTE]
+> **Open handoff.** I take product screens that grew screen by screen and turn them into one consistent, reusable UI layer — shared components, honest states, motion that explains itself. Two tracks are live right now: **Logray** and **JOYIZM**.
 
 ---
 
-### ✨ JOYIZM — UI enhancements
+## 01 · 🎨 Logray — UI enhancement track
 
-UI work on an urban lifestyle membership platform: sport, wellness, meals and travel in one membership.
+|  |  |
+|:--|:--|
+| **Status** | ● In build |
+| **Scope** | Product screens → one reusable UI layer |
+| **Craft** | Components · tokens · motion · accessibility |
+| **Stack** | React · TypeScript · Ionic React · Capacitor |
 
-- 📱 One consistent experience across iOS, Android and web — discover → book → pay → manage
-- 🧩 Eight verticals in a single app: events, meals, wellness, shop, deals, travel, activities, games
-- 🍽️ Booking, ordering and redemption flows, including the daily featured kitchen
-- 💳 JOY Cash wallet — balance, top-up and spend screens
-- 🧭 Guest-first browsing: see what's on nearby before signing up
-- 🎟️ Member rates, trips and partner gym/class access without menu digging
+- 🧩 **One layer, not many pages** — shared components, spacing and type scale replace one-off styles per screen.
+- 📐 **Screen-by-screen refinement** — layout, hierarchy and visual consistency brought in line with the rest.
+- ⚡ **Interaction polish** — transitions, skeletons and loading feedback instead of blank jumps.
+- ♿ **Accessibility pass** — contrast, focus order and tap targets checked, not assumed.
+- 📱 **Holds up everywhere** — from a small phone to a wide desktop, same screen, same logic.
 
-`iOS` · `Android` · `Next.js web` · `Design system`
+---
+
+## 02 · ✨ JOYIZM — UI enhancement track
+
+|  |  |
+|:--|:--|
+| **Status** | ● In build |
+| **Product** | Urban lifestyle membership — sport, wellness, meals, travel |
+| **Scope** | iOS · Android · web, one design language |
+| **Stack** | Next.js web · native apps · design system |
+
+- 📱 **One experience across iOS, Android and web** — discover → book → pay → manage membership.
+- 🧩 **Eight verticals in a single app**: events, meals, wellness, shop, deals, travel, activities, games.
+- 🍽️ **Booking and redemption flows** — including the daily featured kitchen.
+- 💳 **JOY Cash wallet** — balance, top-up and spend screens.
+- 🧭 **Guest-first browsing** — see what's on nearby before signing up.
+- 🎟️ **Member rates, trips and partner gym access** surfaced without menu digging.
 
 **[🌐 joyizm.com](https://joyizm.com)** · **[App Store](https://apps.apple.com/us/app/joyizm/id1591948916)** · **[Google Play](https://play.google.com/store/apps/details?id=com.rezy360.joyizm)**
 
 ---
 
-## 🧠 How I work on UI
+## 03 · How a screen gets shipped
 
-- 🧱 **Systems, not screens** — every redesign starts with tokens and reusable components, so the next feature ships faster.
-- ✨ **Motion with intent** — transitions should explain the app, not decorate it.
-- 📱 **Cross-platform by default** — web, Ionic/Capacitor and native: shared logic, platform-correct feel.
-- 🔍 **Details are the product** — empty, error and loading states get designed too.
+```mermaid
+flowchart TD
+    A[Design handoff] --> B[Tokens and shared components]
+    B --> C[Screen build]
+    C --> D[Empty, loading and error states]
+    D --> E[Accessibility and responsive pass]
+    E --> F[Ship and measure]
+```
+
+> [!TIP]
+> **My rule of thumb:** if a second screen needs the same block, it becomes a component before it gets built twice. Design debt compounds faster than technical debt.
 
 ---
 
-## 📫 Contact
+## 04 · Contact
 
-| | |
+|  |  |
 |:--|:--|
 | 📧 **Email** | [rocktheway3@gmail.com](mailto:rocktheway3@gmail.com) |
+| 💬 **WhatsApp** | [+91 90148 32822](https://wa.me/919014832822) |
+| 📞 **Call** | [+91 90148 32822](tel:+919014832822) |
 | 💻 **GitHub** | [@EswarVarma91](https://github.com/EswarVarma91) |
-| 💼 **LinkedIn** | _add your handle_ |
 
-<!-- Fill in the LinkedIn line above, and uncomment these if you want them public:
+<!-- Add your LinkedIn and it goes straight into the badge row above:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-HANDLE)
 
+and as a row in the contact table:
+
+| 💼 **LinkedIn** | [your-name](https://www.linkedin.com/in/YOUR-HANDLE) |
+
 -->
 
-Open to conversations about frontend architecture, design systems and mobile UI.
+**Open to conversations about frontend architecture, design systems and mobile UI.**
 
 ---
 
 <details>
-<summary><b>🛠️ Tech stack</b> — tap to expand</summary>
+<summary><b>🛠️ Full stack</b> — tap to expand</summary>
 
 <br>
 
@@ -122,6 +142,8 @@ Open to conversations about frontend architecture, design systems and mobile UI.
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EswarVarma91&layout=compact&hide_border=true&title_color=6C63FF&text_color=808080&bg_color=00000000&langs_count=8" alt="Top languages" width="380" />
 
 <img src="https://streak-stats.demolab.com/?user=EswarVarma91&hide_border=true&stroke=6C63FF&ring=00C2A8&fire=FF6B6B&currStreakLabel=6C63FF" alt="GitHub streak" width="440" />
+
+![Profile views](https://komarev.com/ghpvc/?username=EswarVarma91&style=flat-square&color=00C2A8&label=profile+views)
 
 </div>
 
