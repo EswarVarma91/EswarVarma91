@@ -15,7 +15,7 @@
 <br>
 
 [![Email](https://img.shields.io/badge/Email-rocktheway3%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rocktheway3@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91%2090148%2032822-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919014832822)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B91%209014832822-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919014832822)
 [![GitHub](https://img.shields.io/badge/GitHub-EswarVarma91-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EswarVarma91)
 
 </div>
@@ -83,8 +83,8 @@ flowchart TD
 |  |  |
 |:--|:--|
 | 📧 **Email** | [rocktheway3@gmail.com](mailto:rocktheway3@gmail.com) |
-| 💬 **WhatsApp** | [+91 90148 32822](https://wa.me/919014832822) |
-| 📞 **Call** | [+91 90148 32822](tel:+919014832822) |
+| 💬 **WhatsApp** | [+91 9014832822](https://wa.me/919014832822) |
+| 📞 **Call** | [+91 9014832822](tel:+919014832822) |
 | 💻 **GitHub** | [@EswarVarma91](https://github.com/EswarVarma91) |
 
 <!-- Add your LinkedIn and it goes straight into the badge row above:
