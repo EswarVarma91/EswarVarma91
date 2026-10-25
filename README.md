@@ -99,7 +99,31 @@ Logray's interface grew feature by feature, so the job is consolidation: one com
 
 ---
 
-## 03 · How a screen gets shipped
+## 03 · Selected repositories
+
+### 🏢 e-biz-3.0 — enterprise app platform
+
+HRMS, CRM, travel and hotel modules with live location tracking in one mobile app, shipped in versioned releases with a running changelog.
+
+`Dart` · `Flutter` · [View repo →](https://github.com/EswarVarma91/e-biz-3.0)
+
+### 🫁 ventilator — medical device app
+
+Flutter app built with Zyna MedTech for a Covid-19 ventilator product.
+
+`Dart` · `Flutter` · [View repo →](https://github.com/EswarVarma91/ventilator)
+
+### 🧪 flutter_training — practice project
+
+Scratch space for Flutter experiments and UI exercises.
+
+[View repo →](https://github.com/EswarVarma91/flutter_training)
+
+**[All repositories →](https://github.com/EswarVarma91?tab=repositories)**
+
+---
+
+## 04 · How a screen gets shipped
 
 ```mermaid
 flowchart TD
@@ -115,7 +139,7 @@ flowchart TD
 
 ---
 
-## 04 · Contact
+## 05 · Contact
 
 |  |  |
 |:--|:--|
