@@ -30,15 +30,25 @@
 |  |  |
 |:--|:--|
 | **Status** | ● In build |
-| **Scope** | Product screens → one reusable UI layer |
-| **Craft** | Components · tokens · motion · accessibility |
+| **Scope** | Existing product screens → one reusable UI layer |
+| **Craft** | Components · tokens · motion · accessibility · responsive |
 | **Stack** | React · TypeScript · Ionic React · Capacitor |
 
-- 🧩 **One layer, not many pages** — shared components, spacing and type scale replace one-off styles per screen.
-- 📐 **Screen-by-screen refinement** — layout, hierarchy and visual consistency brought in line with the rest.
-- ⚡ **Interaction polish** — transitions, skeletons and loading feedback instead of blank jumps.
-- ♿ **Accessibility pass** — contrast, focus order and tap targets checked, not assumed.
-- 📱 **Holds up everywhere** — from a small phone to a wide desktop, same screen, same logic.
+Logray's interface grew feature by feature, so the job is consolidation: one component per job, one spacing and type scale, screens that behave the same at 360px and at 1440px. The product screens stay private — the approach doesn't.
+
+| Before | After |
+|:--|:--|
+| Styled per screen | One component per job |
+| Spacing eyeballed | Token scale |
+| Blank jump on load | Skeletons + empty/error |
+| Random tap targets | ≥44px, visible focus |
+| “Works on my screen” | Phone → desktop checked |
+
+- 🧩 **Component inventory first** — repeated blocks get pulled into one component with props, instead of a copy per screen.
+- 📐 **Screen-by-screen refinement** — hierarchy, alignment and density brought in line with the rest of the product.
+- ⚡ **Interaction polish** — transitions and loading feedback that explain what changed, not decoration.
+- ♿ **Accessibility as a pass, not a hope** — contrast, focus order, keyboard paths and screen-reader labels verified.
+- 📱 **Responsive by construction** — the same screen and the same logic from phone to desktop.
 
 ---
 
