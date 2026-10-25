@@ -40,17 +40,20 @@ Rebuilding key product screens into a consistent, reusable UI layer.
 
 <h3>✨ JOYIZM — UI Enhancements</h3>
 
-Polishing a lifestyle &amp; wellness platform app across iOS and Android.
+UI work on an urban lifestyle membership platform — sport, wellness, meals, travel and member pricing in one app.
 
 <ul>
-  <li>🏋️ Fresher browsing, booking and activity flows</li>
-  <li>🎠 Reworked cards, carousels and content hierarchy</li>
-  <li>🌗 Themed, consistent styling across the whole app</li>
-  <li>🚦 Faster screen loads with leaner renders</li>
-  <li>🧭 Clearer navigation and onboarding paths</li>
+  <li>📱 One consistent UI across iOS, Android and web: discover → book → pay → manage membership</li>
+  <li>🧩 Eight verticals in a single app — events, meals, wellness, shop, deals, travel, activities, games</li>
+  <li>🍽️ Booking, ordering and redemption flows, including the daily featured kitchen</li>
+  <li>💳 JOY Cash wallet: balance, top-up and spend screens</li>
+  <li>🧭 Guest-first browsing — see what's on nearby before signing up, join in a tap</li>
+  <li>🎟️ Member rates, small-group trips and partner gym/class access without menu digging</li>
 </ul>
 
-<code>React Native</code> · <code>Flutter</code> · <code>iOS</code> · <code>Android</code>
+<code>iOS</code> · <code>Android</code> · <code>Next.js web</code> · <code>Design system</code>
+
+<a href="https://joyizm.com">joyizm.com</a> · <a href="https://apps.apple.com/us/app/joyizm/id1591948916">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.rezy360.joyizm">Google Play</a>
 
 </td>
 </tr>
