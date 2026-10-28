@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=900&color=6C63FF&center=true&vCenter=true&width=460&lines=UI+enhancement+track+%E2%80%94+Logray;UI+enhancement+track+%E2%80%94+JOYIZM;Design+systems+%C2%B7+motion+%C2%B7+accessibility" alt="Currently shipping Logray and JOYIZM UI enhancements" width="460" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=900&color=6C63FF&center=true&vCenter=true&width=460&lines=UI+enhancement+track+%E2%80%94+Logray;UI+enhancement+track+%E2%80%94+JOYIZM;Design+systems+%C2%B7+motion+%C2%B7+accessibility;Working+now+%E2%80%94+video+editor+&+home+widgets" alt="Currently shipping Logray and JOYIZM UI enhancements, and working now on a video editor and home widgets" width="460" />
 
 <br>
 
@@ -21,7 +21,7 @@
 </div>
 
 > [!NOTE]
-> **Open handoff.** I take product screens that grew screen by screen and turn them into one consistent, reusable UI layer — shared components, honest states, motion that explains itself. Two tracks are live right now: **Logray** and **JOYIZM**.
+> **Open handoff.** I take product screens that grew screen by screen and turn them into one consistent, reusable UI layer — shared components, honest states, motion that explains itself. Two tracks are live right now: **Logray** and **JOYIZM**. I'm also heads-down on a **video editor** and **home widgets** right now.
 
 ---
 
@@ -79,7 +79,18 @@ Logray's interface grew feature by feature, so the job is consolidation: one com
 
 ---
 
-## 02 · ✨ JOYIZM — UI enhancement track
+## 02 · Working now
+
+|  |  |
+|:--|:--|
+| **Status** | ● In build |
+| **Working on** | Video editor · Home widgets |
+
+Right now I'm heads-down building a **video editor** and a set of **home widgets**. These are the active pieces, so whatever is on screen right now — timeline scrubbing, clip trimming, export settings, widget sizing, glanceable layout — goes here. The two tracks above (Logray and JOYIZM) stay the main UI-enhancement track; this section is the current live work.
+
+---
+
+## 03 · ✨ JOYIZM — UI enhancement track
 
 |  |  |
 |:--|:--|
@@ -99,7 +110,7 @@ Logray's interface grew feature by feature, so the job is consolidation: one com
 
 ---
 
-## 03 · Selected repositories
+## 04 · Selected repositories
 
 ### 🏢 e-biz-3.0 — enterprise app platform
 
@@ -123,7 +134,7 @@ Scratch space for Flutter experiments and UI exercises.
 
 ---
 
-## 04 · How a screen gets shipped
+## 05 · How a screen gets shipped
 
 ```mermaid
 flowchart TD
@@ -139,7 +150,7 @@ flowchart TD
 
 ---
 
-## 05 · Contact
+## 06 · Contact
 
 |  |  |
 |:--|:--|
