@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=900&color=6C63FF&center=true&vCenter=true&width=460&lines=UI+enhancement+track+%E2%80%94+Logray;UI+enhancement+track+%E2%80%94+JOYIZM;Design+systems+%C2%B7+motion+%C2%B7+accessibility;Working+now+%E2%80%94+ProEdit+video+editor+&+home+widgets" alt="Currently shipping Logray and JOYIZM UI enhancements, and working now on ProEdit video editor and home widgets" width="460" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=900&color=6C63FF&center=true&vCenter=true&width=460&lines=UI+enhancement+track+%E2%80%94+Logray;UI+enhancement+track+%E2%80%94+JOYIZM;Design+systems+%C2%B7+motion+%C2%B7+accessibility;PROEDIT+%E2%80%94+local-first+mobile+video+editor;Home+widgets" alt="Currently shipping Logray and JOYIZM UI enhancements, and building PROEDIT, a local-first mobile video editor, plus home widgets" width="460" />
 
 <br>
 
@@ -21,7 +21,7 @@
 </div>
 
 > [!NOTE]
-> **Open handoff.** I take product screens that grew screen by screen and turn them into one consistent, reusable UI layer — shared components, honest states, motion that explains itself. Two tracks are live right now: **Logray** and **JOYIZM**. I'm also heads-down on **ProEdit video editor** and **home widgets** right now.
+> **Open handoff.** I take product screens that grew screen by screen and turn them into one consistent, reusable UI layer — shared components, honest states, motion that explains itself. Two tracks are live right now: **Logray** and **JOYIZM**. I'm also building **PROEDIT**, a local-first mobile video editor, and **home widgets**.
 
 ---
 
@@ -79,14 +79,37 @@ Logray's interface grew feature by feature, so the job is consolidation: one com
 
 ---
 
-## 02 · Working now
+## 02 · PROEDIT — local-first mobile video editor
 
 |  |  |
 |:--|:--|
 | **Status** | ● In build |
-| **Working on** | ProEdit video editor · Home widgets |
+| **Project** | PROEDIT — Edit. Grade. Export. |
+| **Platforms** | iOS 15+ and Android 7.0+ (minSdk 24) |
+| **Stack** | Flutter · Cubits only · FFmpeg · SQLite |
 
-Right now I'm heads-down building **ProEdit video editor** and a set of **home widgets**. These are the active pieces, so whatever is on screen right now — timeline scrubbing, clip trimming, export settings, widget sizing, glanceable layout — goes here. The two tracks above (Logray and JOYIZM) stay the main UI-enhancement track; this section is the current live work.
+PROEDIT is a complete, local-first mobile video editor. It uses a proxy-based editing workflow with a single-pass FFmpeg export graph, so scrubbing stays smooth on a phone while the final render always uses the original camera files.
+
+| Area | What you get |
+|:--|:--|
+| Library | Multi-select import from Photos, the two bundled demo clips, or Pexels stock |
+| Timeline | Multi-track video strip with drag-free trim handles, split, reorder, delete, undo/redo |
+| Editing | Speed 0.25×–4×, 36 color looks + brightness/contrast/saturation, fit/fill framing, canvas colour, rotation/flip, text overlays with 9 presets + free drag placement, clip volume/mute |
+| Finishing | Project fade-in and fade-out from black, covering text and PIP |
+| Audio | Per-clip volume, background music import, fade in and automatic 1.5s outro fade |
+| Transitions | Cut, dissolve, fade, slide, wipe, zoom, clamped to 45% of adjacent clips |
+| PIP | Up to six picture-in-picture layers per project, each with 9 anchors, its own start time, size, opacity, volume and optional green/blue-screen backdrop removal |
+| Merge | Two-clip side-by-side, stacked or overlay merge; overlay mode can key out a plain backdrop |
+| Editing defaults | Persistent studio setup: export frame, resolution, fps and quality, plus default transition and length, clip framing, clip volume and project fades |
+| Templates | 12 curated recipes plus an optional pack library; picking a template applies its filters, frame size, pacing, fades, titles and optional generated voice intro |
+| Collage | 2, 4, 6, 8, 10 or 12 clips as side-by-side, stacked, feature or automatic grid; saved as a project and exported as one video |
+| Stock | Optional Pexels video search; clips download, then follow the normal probe/proxy/import path |
+| Export | 720p / 1080p / 4K, 16:9 / 9:16 / 1:1 / auto, 24/30/60 fps, draft/balanced/high, hardware H.264 when available |
+| Export queue | Up to 10 jobs; Android keeps the render alive in a foreground service, iOS keeps the queue in-app |
+| Sharing | Save to Photos, share sheet, or keep the file in the app export folder |
+| Ads | Master toggle off by default, banners only on Gallery/Settings, one interstitial only after a successful export |
+
+[🌐 GitHub repo →](https://github.com/EswarVarma91/video_editor)
 
 ---
 
