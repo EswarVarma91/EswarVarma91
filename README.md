@@ -133,7 +133,18 @@ PROEDIT is a complete, local-first mobile video editor. It uses a proxy-based ed
 
 ---
 
-## 04 · Selected repositories
+## 04 · SAP CPI — website I'm working on now
+
+A 90-day learning site for **SAP Integration Suite / Cloud Integration (CPI)** — a self-contained frontend project I'm designing and building.
+
+- **What it is:** a day-by-day curriculum (90 days, 10 modules, 47 lessons), ten project dossiers, 300-question bank, 520 interview questions, lesson exams, strict module/mock exams with a 98% gate, domain drills, an iFlow FlowLab simulator, and a single readiness score that weights lessons, labs, quizzes, drills, projects and days.
+- **How it's built:** static HTML, CSS and vanilla ES modules (TypeScript-like tooling through Vite), served from Firebase Hosting.
+- **Accounts and progress:** browser-only as a guest; sign in with Google or email/password to sync progress to Firestore. Signing out returns the browser to a clean 0% guest record while the account copy stays intact. I'm actively working on that guest-vs-account flow here.
+- **Where it lives:** [GitHub repo →](https://github.com/EswarVarma91/sap_cpi) · [Live site →](https://iamsurya.web.app)
+
+---
+
+## 05 · Selected repositories
 
 ### 🏢 e-biz-3.0 — enterprise app platform
 
@@ -157,7 +168,7 @@ Scratch space for Flutter experiments and UI exercises.
 
 ---
 
-## 05 · How a screen gets shipped
+## 06 · How a screen gets shipped
 
 ```mermaid
 flowchart TD
@@ -173,7 +184,7 @@ flowchart TD
 
 ---
 
-## 06 · Contact
+## 07 · Contact
 
 |  |  |
 |:--|:--|
@@ -247,14 +258,3 @@ and as a row in the contact table:
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=00C2A8&height=90&section=footer">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=9FF3E8&height=90&section=footer" alt="" width="100%">
 </picture>
-
----
-
-## 07 · SAP CPI — website I'm working on now
-
-A 90-day learning site for **SAP Integration Suite / Cloud Integration (CPI)** — a self-contained frontend project I'm designing and building.
-
-- **What it is:** a day-by-day curriculum (90 days, 10 modules, 47 lessons), ten project dossiers, 300-question bank, 520 interview questions, lesson exams, strict module/mock exams with a 98% gate, domain drills, an iFlow FlowLab simulator, and a single readiness score that weights lessons, labs, quizzes, drills, projects and days.
-- **How it's built:** static HTML, CSS and vanilla ES modules (TypeScript-like tooling through Vite), served from Firebase Hosting.
-- **Accounts and progress:** browser-only as a guest; sign in with Google or email/password to sync progress to Firestore. Signing out returns the browser to a clean 0% guest record while the account copy stays intact. I'm actively working on that guest-vs-account flow here.
-- **Where it lives:** [GitHub repo →](https://github.com/EswarVarma91/sap_cpi) · [Live site →](https://iamsurya.web.app)
