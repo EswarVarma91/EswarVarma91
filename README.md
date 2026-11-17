@@ -1,3 +1,4 @@
+
 <!-- ============================================================
      Profile README — built like a design handoff sheet.
      One column everywhere, so phones and desktops read the same.
@@ -135,11 +136,11 @@ PROEDIT is a complete, local-first mobile video editor. It uses a proxy-based ed
 
 ## 04 · SAP CPI — website I'm working on now
 
-A 90-day learning site for **SAP Integration Suite / Cloud Integration (CPI)** — a self-contained frontend project I'm designing and building.
+A 90-day learning site for **SAP Integration Suite / Cloud Integration (CPI)** — a self-contained frontend I'm designing and building.
 
 - **What it is:** a day-by-day curriculum (90 days, 10 modules, 47 lessons), ten project dossiers, 300-question bank, 520 interview questions, lesson exams, strict module/mock exams with a 98% gate, domain drills, an iFlow FlowLab simulator, and a single readiness score that weights lessons, labs, quizzes, drills, projects and days.
 - **How it's built:** static HTML, CSS and vanilla ES modules (TypeScript-like tooling through Vite), served from Firebase Hosting.
-- **Accounts and progress:** browser-only as a guest; sign in with Google or email/password to sync progress to Firestore. Signing out returns the browser to a clean 0% guest record while the account copy stays intact. I'm actively working on that guest-vs-account flow here.
+- **Accounts and progress:** browser-only as a guest; sign in with Google or email/password to sync progress to Firestore. Signing out returns the browser to a clean 0% guest record while the account copy stays intact — I'm actively working on that guest-vs-account flow here.
 - **Where it lives:** [GitHub repo →](https://github.com/EswarVarma91/sap_cpi) · [Live site →](https://iamsurya.web.app)
 
 ---
@@ -172,12 +173,21 @@ Scratch space for Flutter experiments and UI exercises.
 
 ```mermaid
 flowchart TD
-    A[Design handoff] --> B[Tokens and shared components]
-    B --> C[Screen build]
-    C --> D[Empty, loading and error states]
-    D --> E[Accessibility and responsive pass]
-    E --> F[Ship and measure]
+    A[Design handoff + Figma tokens] --> B[Extract tokens & shared BLoC/Cubit / cubit-only state]
+    B --> C[Build the screen one job at a time → one BLoC per screen feature]
+    C --> D[Empty / loading / error states for every async path, not just the happy path]
+    D --> E[Accessibility and responsive pass: focus order, ≥44px targets, keyboard & screen-reader labels, phone → desktop parity]
+    E --> F[Ship and measure in the wild]
 ```
+
+In plain BLoC / Cubit terms for this profile's apps (PROEDIT, JOYIZM, Logray):
+
+- **State first, not UI first.** Each feature screen owns one small Cubit — loading, loaded, error, or a shaped feature state (for example a timeline cursor + track list + undo stack in PROEDIT, or a placement + filters state in Joyizm). The Cubit holds only what the screen needs; nothing leaks across features.
+- **Event → state pipeline.** Every user action is an event into the Cubit. In Flutter, `emit` a new state from inside the Cubit handler; in React/TypeScript, a reducer-style state machine (action → next state) keeps the render pure and the flow traceable. Loading, error, empty and "nothing selected" states are first-class, never an afterthought.
+- **Async handling with explicit paths.** One async path per feature: load → success / failure. PROEDIT's proxy and FFmpeg export paths use that same shape — load assets, load the render pipeline, render, then export — with each step a recoverable state. Error states are shaped (what failed, why, retry vs abort), not generic "something went wrong" popups.
+- **Bindings stay shallow.** The Cubit feeds a small formatter / coordinator that the UI reads. Blocs/forms pick up from that state rather than owning it. That keeps the real heavy work — timeline trim math, export graph, video pipeline — in one place and the screen in another.
+- **Undo/redo as state history.** In PROEDIT, a timeline change is just another Cubit state entry; undo/redo is walking that stack with the same feature state shape, so there is no separate mental model for "editing" vs "undoing".
+- **Verifiable before and after.** Each shipped screen keeps a before/after checklist (token scale, ≥44px targets, clear focus, honest empty/error, phone → desktop parity) and a tiny checklist I run in the app itself: load → loaded/error, no jank when the heavy bit runs, accessibility labels on every interactive thing.
 
 > [!TIP]
 > **My rule of thumb:** if a second screen needs the same block, it becomes a component before it gets built twice. Design debt compounds faster than technical debt.
